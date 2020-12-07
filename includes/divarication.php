@@ -56,20 +56,6 @@ if (isset($_POST['color'])) {
         ) { ?>
             <div class="container">
                 <div class="row">
-                    <div class=" col img border border-dark rounded m-2"><br>
-                        <img src="<?php echo $configuration['img_url']; ?>" style="width: 50%;">
-                        <div class="card-body">
-                            <h5 >Логотип</h5>
-                            <p>Изменить логотип?</p>
-                            <p>Загрузите картинку</p>
-                            <form enctype="multipart/form-data" action="#" method="POST">
-                                <input class="btn btn-secondary" name="file" type="file" size="10"/>
-                                <p></p>
-                                <input class="btn btn-success" type="submit" value="Отправить картинку" />
-                            </form>
-                            <p>Чтобы применить изменения перезагрузите страницу</p>
-                        </div>
-                    </div>
                     <div class="col name border border-dark rounded m-2"><br>
                         <div class="title justify-content-centre">
                             <h2><?php echo $configuration['name']; ?></h2>

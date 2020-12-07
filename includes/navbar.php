@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: <?php echo $configuration['navbar_color']; ?>;">
-    <a class="navbar-brand" href="/"><img src="<?php echo $configuration['img_url']; ?>" height="40px">   <?php echo $configuration['name']; ?></a>
+    <a class="navbar-brand" href="/"><?php echo $configuration['name']; ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
