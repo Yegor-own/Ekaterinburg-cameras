@@ -92,8 +92,8 @@ $num_rows = mysqli_num_rows($cameras);
                 descr = '<?php echo $cam['descr']; ?>'
                 markers.addLayer(
                     L.marker([loc, loc2])
-                        // .bindPopup(adres + "<br><br>" + descr)
-                        // .openPopup()
+                        .bindPopup(adres + "<br><br>" + descr)
+                        .openPopup()
                 )
             }
             </script>
